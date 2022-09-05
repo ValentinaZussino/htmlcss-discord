@@ -131,6 +131,13 @@ main > section {
 /* sections */
 .wave {
     color: #F6F6F6;
+    margin-bottom: -5px;
+}
+
+.wave2 {
+    color: #F6F6F6;
+    transform: rotate(180deg);
+    margin-top: -5px;
 }
 
 .row-section {
@@ -182,6 +189,7 @@ div.txt-row h2 {
 .col-section div#stars {
     background-image: url(../img/stars.svg);
     background-size: contain;
+    background-repeat: no-repeat;
     width: 350px;
     height: 45px;
     margin-bottom: 15px;
