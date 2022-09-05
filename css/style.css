@@ -123,13 +123,11 @@ section.hero div h1 {
 }
 
 /* main */
-main > :first-child {
-    padding-top: 50px;
+main > section {
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
-main > :last-child {
-    padding-bottom: 100px;
-}
 /* sections */
 .wave {
     color: #F6F6F6;
@@ -186,4 +184,26 @@ div.txt-row h2 {
 footer {
     background-color: #23272A;
     color: white;
+}
+.widget {
+    display: flex;
+}
+.col-30 {
+    width: 30%;
+}
+
+.col-17 {
+   width: 17.5%
+}
+
+footer > :last-child {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: flex-end; */
+}
+
+#registrati {
+    font-size: 13px;
+    padding: 7px 12px;
+    font-weight: bold;
 }
