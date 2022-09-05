@@ -38,6 +38,11 @@ li {
     border-radius: 20px;
 }
 
+.big-btn{
+    font-size: 16px;
+    padding: 7px 25px;
+}
+
 .btn-lightgray {
     background-color: white;
     color: #23272A;
@@ -46,6 +51,15 @@ li {
 .btn-darkgray {
     background-color: #23272A;
     color: white;
+}
+
+.btn-lightblue {
+    background-color: #8EA1E1;
+    color: white;
+}
+
+i {
+    margin-right: 5px;
 }
 
 /* header */
@@ -104,15 +118,6 @@ section.hero div h1 {
     font-size: 40px;
 }
 
-section.hero div.hero-text div a {
-    font-size: 16px;
-    padding: 7px 25px;
-}
-
-section.hero div.hero-text div i {
-    margin-right: 5px;
-}
-
 #btn-mac {
     margin-right: 15px;
 }
@@ -120,6 +125,10 @@ section.hero div.hero-text div i {
 /* main */
 main > :first-child {
     padding-top: 50px;
+}
+
+main > :last-child {
+    padding-bottom: 100px;
 }
 /* sections */
 .row-section {
@@ -158,6 +167,17 @@ div.txt-row h2 {
     margin-bottom: 5px;
 }
 
+.col-section div#stars {
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    width: 350px;
+    height: 45px;
+    margin-bottom: 15px;
+}
+
+.col-section h3 {
+    line-height: 45px;
+}
 /* footer */
 footer {
     background-color: #23272A;
