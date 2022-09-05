@@ -20,7 +20,7 @@ body{
 }
 
 .central-container {
-    max-width: 1170px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -118,6 +118,9 @@ section.hero div.hero-text div i {
 }
 
 /* main */
+main > :first-child {
+    padding-top: 50px;
+}
 /* sections */
 .row-section {
     display: flex;
