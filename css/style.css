@@ -1,4 +1,4 @@
-/* colori: white, azz #3161E0, gscuro #23272A,
+/* colori: white, azz #255ee9, gscuro #23272A,
  gchiaro #F6F6F6, azzchiaro #8EA1E1, azztesto #5865f2 */
 
 /* utilities */
@@ -33,16 +33,24 @@ li {
 }
 
 .buttons {
-    display: block;
-    color: #23272A;
+    display: inline-block;
     text-decoration: none;
     border-radius: 20px;
-    padding: 10px 12px;
+}
+
+.btn-lightgray {
+    background-color: white;
+    color: #23272A;
+}
+
+.btn-darkgray {
+    background-color: #23272A;
+    color: white;
 }
 
 /* header */
 header {
-    background-color: #3161E0;
+    background-color: #255ee9;
     padding-top: 20px;
 }
 
@@ -65,23 +73,50 @@ header nav ul li a {
 }
 
 #accedi {
-    background-color: white;
     font-size: 13px;
+    padding: 7px 12px;
 }
 
 /* hero */
-#hero {
+.hero {
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    height: 465px;
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-text {
     max-width: 600px;
+    min-height: 350px;
     text-align: center;
+    line-height: 1.5;
     margin: 0 auto;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
 }
+
+section.hero div h1 {
+    font-size: 40px;
+}
+
+section.hero div.hero-text div>a {
+    font-size: 16px;
+    padding: 7px 25px;
+}
+
+section.hero div.hero-text div i {
+    margin-right: 5px;
+}
+
+#btn-mac {
+    margin-right: 15px;
+}
+
 /* footer */
 footer {
     background-color: #23272A;
