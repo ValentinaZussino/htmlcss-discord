@@ -1,3 +1,7 @@
+/* colori: white, azz #3161E0, gscuro #23272A,
+ gchiaro #F6F6F6, azzchiaro #8EA1E1, azztesto #5865f2 */
+
+/* utilities */
 * {
     margin: 0;
     padding: 0;
@@ -7,4 +11,58 @@
 .debug {
     border: 1px solid black;
     min-height: 100px;
+}
+
+/* general */
+body{
+    font-family:  Helvetica, Arial, sans-serif;
+    background-color: white;
+}
+
+.central-container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.bg-gray {
+    background-color: #F6F6F6;
+}
+
+li {
+    list-style: none;
+}
+
+.buttons {
+    display: block;
+    background-color: white;
+    color: #23272A;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 12px;
+}
+
+/* header */
+header {
+    background-color: #3161E0;
+}
+
+.flexbox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    min-width: 500px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* footer */
+footer {
+    background-color: #23272A;
 }
