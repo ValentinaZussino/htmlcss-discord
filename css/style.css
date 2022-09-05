@@ -184,16 +184,43 @@ div.txt-row h2 {
 footer {
     background-color: #23272A;
     color: white;
-}
-.widget {
-    display: flex;
-}
-.col-30 {
-    width: 30%;
+    padding: 50px;
 }
 
-.col-17 {
-   width: 17.5%
+.widget {
+    display: flex;
+    border-bottom: 1px solid #8EA1E1;
+    margin-bottom: 30px;
+}
+
+.col {
+   width: 20%;
+}
+
+footer h4 {
+    color: #8EA1E1;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+footer section div.social i {
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+footer h3 {
+    color:#8EA1E1;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-nav li a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
 }
 
 footer > :last-child {
