@@ -54,14 +54,14 @@ header {
     padding-top: 20px;
 }
 
-.flexbox {
+/* nav */
+.flexnav {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
 }
 
-/* nav */
 header nav ul {
     min-width: 500px;
 }
@@ -104,7 +104,7 @@ section.hero div h1 {
     font-size: 40px;
 }
 
-section.hero div.hero-text div>a {
+section.hero div.hero-text div a {
     font-size: 16px;
     padding: 7px 25px;
 }
@@ -117,7 +117,29 @@ section.hero div.hero-text div i {
     margin-right: 15px;
 }
 
+/* main */
+/* sections */
+.row-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt-row {
+    width: 25%;
+    padding-top: 35px;
+}
+
+div.txt-row h2 {
+    font-size: 40px;
+    color: #23272A;
+}
+ div.txt-row p {
+    line-height: 1.6;
+    margin-top: 15px;
+ }
+
 /* footer */
 footer {
     background-color: #23272A;
+    color: white;
 }
