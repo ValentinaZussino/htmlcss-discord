@@ -131,6 +131,10 @@ main > :last-child {
     padding-bottom: 100px;
 }
 /* sections */
+.wave {
+    color: #F6F6F6;
+}
+
 .row-section {
     display: flex;
     justify-content: space-between;
