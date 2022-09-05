@@ -191,10 +191,16 @@ footer {
     display: flex;
     border-bottom: 1px solid #8EA1E1;
     margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+.widget > :first-child {
+    width: 30%;
+    padding-right: 80px;
 }
 
 .col {
-   width: 20%;
+   width: 17.5%;
+   line-height: 1.7;
 }
 
 footer h4 {
@@ -226,7 +232,6 @@ footer h3 {
 footer > :last-child {
     display: flex;
     justify-content: space-between;
-    /* align-items: flex-end; */
 }
 
 #registrati {
