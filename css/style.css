@@ -189,7 +189,7 @@ footer {
 
 .widget {
     display: flex;
-    border-bottom: 1px solid #8EA1E1;
+    border-bottom: 1px solid #3b4661;
     margin-bottom: 30px;
     padding-bottom: 20px;
 }
@@ -214,6 +214,12 @@ footer section div.social i {
     margin-top: 15px;
 }
 
+select[name="lang"] {
+    background-color: #23272A;
+    border: none;
+    color: white;
+}
+
 footer h3 {
     color:#8EA1E1;
 }
@@ -236,6 +242,6 @@ footer > :last-child {
 
 #registrati {
     font-size: 13px;
-    padding: 7px 12px;
+    padding: 8px 12px;
     font-weight: bold;
 }
