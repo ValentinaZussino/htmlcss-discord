@@ -127,6 +127,10 @@ main > :first-child {
     justify-content: space-between;
 }
 
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
 .txt-row {
     width: 25%;
     padding-top: 35px;
