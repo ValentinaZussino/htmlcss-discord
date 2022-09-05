@@ -34,7 +34,6 @@ li {
 
 .buttons {
     display: block;
-    background-color: white;
     color: #23272A;
     text-decoration: none;
     border-radius: 20px;
@@ -44,6 +43,7 @@ li {
 /* header */
 header {
     background-color: #3161E0;
+    padding-top: 20px;
 }
 
 .flexbox {
@@ -53,6 +53,7 @@ header {
     align-items: center;
 }
 
+/* nav */
 header nav ul {
     min-width: 500px;
 }
@@ -60,8 +61,27 @@ header nav ul {
 header nav ul li a {
     text-decoration: none;
     color: white;
+    font-weight: bold;
 }
 
+#accedi {
+    background-color: white;
+    font-size: 13px;
+}
+
+/* hero */
+#hero {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 465px;
+}
+
+.hero-text {
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+}
 /* footer */
 footer {
     background-color: #23272A;
