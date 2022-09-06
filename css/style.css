@@ -318,6 +318,7 @@ footer > :last-child {
 #col-left {
     width: 60%;
     justify-content: center;
+    row-gap: 15px;
     line-height: 1.5;
 }
 
@@ -330,7 +331,7 @@ form {
 }
 
 .blue-txt {
-    color:#255ee9;
+    color:#1f9eff;
 }
 
 form input {
