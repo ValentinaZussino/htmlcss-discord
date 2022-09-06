@@ -336,6 +336,7 @@ form {
 
 .blue-txt {
     color:#1f9eff;
+    text-decoration: none;
 }
 
 form input {
@@ -346,6 +347,7 @@ form input {
     background-color:#23272A;
     margin-top: 5px;
     margin-bottom: 5px;
+    color:#F6F6F6;
 }
 
 form input:last-of-type {
