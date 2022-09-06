@@ -246,6 +246,11 @@ footer h4 {
     margin-bottom: 15px;
 }
 
+footer section.widget label img {
+    width: 22px;
+    margin-right: 3px;
+}
+
 footer section div.social i {
     margin-right: 15px;
     margin-top: 15px;
@@ -257,6 +262,7 @@ select[name="lang"] {
     background-color: var(--darkgray);
     border: none;
     color: var(--lightgray);
+    font-size: 15px;
 }
 
 footer h3 {
