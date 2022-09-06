@@ -298,7 +298,7 @@ footer > :last-child {
     background-color: #36393f;
     width: 60%;
     max-width: 1170px;
-    min-height: 40%;
+    min-height: 45%;
     color:#b4b6ba;
     display: flex;
     border-radius: 8px;
@@ -322,8 +322,12 @@ footer > :last-child {
     line-height: 1.5;
 }
 
+#form-container {
+    width: 100%;
+}
+
 form {
-    margin: 0 auto;
+    margin: 0 45px;
 }
 
 #form > label {
@@ -340,6 +344,8 @@ form input {
     border: none;
     border-radius: 3px;
     background-color:#23272A;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 form input:last-of-type {
@@ -366,5 +372,6 @@ form input:last-of-type {
 
 #qrcode {
     width: 50%;
+    border-radius: 5px;
 }
 
