@@ -284,3 +284,8 @@ footer > :last-child {
     padding: 8px 12px;
     font-weight: bold;
 }
+
+/* page accedi */
+body#pag-accedi {
+    background-color: #255ee9;
+}
