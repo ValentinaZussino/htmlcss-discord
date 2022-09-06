@@ -1,6 +1,3 @@
-/* colori: white, azz #255ee9, gscuro #23272A,
- gchiaro #F6F6F6, azzchiaro #8EA1E1, azztesto #5865f2 */
-
 /* utilities */
 * {
     margin: 0;
@@ -15,12 +12,15 @@
 
 :root{
     --darkgray: #23272A;
+    --white: white;
+    --lightgray: #F6F6F6;
+    --lightblue: #5865f2;
 }
 
 /* general */
 body{
     font-family:  Helvetica, Arial, sans-serif;
-    background-color: white;
+    background-color: var(--white);
 }
 
 .central-container {
@@ -29,7 +29,7 @@ body{
 }
 
 .bg-gray {
-    background-color: #F6F6F6;
+    background-color: var(--lightgray);
 }
 
 li {
@@ -53,7 +53,7 @@ i {
 }
 
 .btn-lightgray {
-    background-color: white;
+    background-color: var(--white);
     color: var(--darkgray);
 }
 
@@ -64,12 +64,12 @@ i {
 
 .btn-darkgray {
     background-color: var(--darkgray);
-    color: white;
+    color: var(--white);
 }
 
 .btn-lightblue {
-    background-color: #5865f2;
-    color: white;
+    background-color: var(--lightblue);
+    color: var(--white);
 }
 
 .btn-darkgray:hover, .btn-lightblue:hover {
@@ -102,7 +102,7 @@ header nav ul {
 
 header nav ul li a {
     text-decoration: none;
-    color: white;
+    color: var(--white);
     font-weight: bold;
 }
 
@@ -130,7 +130,7 @@ header nav ul li a:hover {
     min-height: 60%;
     text-align: center;
     line-height: 1.5;
-    color: white;
+    color: var(--white);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -149,7 +149,7 @@ main.home > section {
 /* sections */
 svg {
     display: block;
-    color: #F6F6F6;
+    color: var(--lightgray);
 }
 
 .wave-down {
@@ -219,7 +219,7 @@ div.txt-row h2 {
 /* footer */
 footer {
     background-color: var(--darkgray);
-    color:#F6F6F6;
+    color: var(--lightgray);
     padding: 50px;
 }
 
@@ -241,7 +241,7 @@ footer {
 }
 
 footer h4 {
-    color: #5865f2;
+    color: var(--lightblue);
     font-size: 25px;
     margin-bottom: 15px;
 }
@@ -250,17 +250,17 @@ footer section div.social i {
     margin-right: 15px;
     margin-top: 15px;
     font-size: 18px;
-    color: #F6F6F6;
+    color: var(--lightgray);
 }
 
 select[name="lang"] {
     background-color: var(--darkgray);
     border: none;
-    color:#F6F6F6;
+    color: var(--lightgray);
 }
 
 footer h3 {
-    color:#5865f2;
+    color: var(--lightblue);
 }
 
 .footer-nav {
@@ -269,7 +269,7 @@ footer h3 {
 }
 
 .footer-nav li a {
-    color:#F6F6F6;
+    color: var(--lightgray);
     list-style: none;
     text-decoration: none;
 }
@@ -315,7 +315,7 @@ footer > :last-child {
 }
 
 #pag-accedi main h2 {
-    color: #ffffff;
+    color: var(--white);
     font-size: 35px;
 }
 
@@ -351,7 +351,7 @@ form input {
     background-color: var(--darkgray);
     margin-top: 5px;
     margin-bottom: 5px;
-    color:#F6F6F6;
+    color: var(--lightgray);
 }
 
 form input:last-of-type {
