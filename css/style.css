@@ -70,7 +70,7 @@ i {
 
 .btn-darkgray:hover, .btn-lightblue:hover {
     opacity: 0.9;
-    box-shadow: 2px 3px 20px 0px #1c1c1c;
+    box-shadow: 2px 3px 20px 0px rgba(20, 20, 20, 0.5);
     cursor: pointer;
 }
 
@@ -227,12 +227,12 @@ footer {
 }
 
 .widget > :first-child {
-    width: 30%;
-    padding-right: 80px;
+    flex-basis: calc((100% / 6) * 2);
+    padding-right: 100px;
 }
 
 .col {
-   width: 17.5%;
+   flex-basis: calc(100% / 6);
    line-height: 1.7;
 }
 
