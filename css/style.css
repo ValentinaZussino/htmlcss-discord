@@ -137,9 +137,9 @@ section.hero div h1 {
 }
 
 /* main */
-main > section {
-    padding-top: 80px;
-    padding-bottom: 80px;
+main.home > section {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 /* sections */
@@ -295,23 +295,42 @@ footer > :last-child {
 }
 
 #pag-accedi main {
-    background-color: #23272A;
-    width: 65%;
+    background-color: #36393f;
+    width: 60%;
     height: 43%;
     color:#b4b6ba;
     display: flex;
+    border-radius: 12px;
+}
+
+.col-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
 }
 
 #pag-accedi main h2 {
     color: #ffffff;
+    font-size: 35px;
 }
 
 #col-left {
-    width: 65%;
+    width: 60%;
     height: 100%;
 }
 
 #col-right {
-    width: 35%;
+    width: 40%;
     height: 100%;
+}
+
+#col-right > div {
+    line-height: 1.5;
+    padding: 0 15px;
+}
+
+#qrcode {
+    width: 50%;
 }
