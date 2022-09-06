@@ -9,7 +9,7 @@
 }
 
 .debug {
-    border: 1px solid black;
+    border: 1px solid rgb(255, 3, 3);
     min-height: 100px;
 }
 
@@ -286,6 +286,32 @@ footer > :last-child {
 }
 
 /* page accedi */
-body#pag-accedi {
+#pag-accedi {
     background-color: #255ee9;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pag-accedi main {
+    background-color: #23272A;
+    width: 65%;
+    height: 43%;
+    color:#b4b6ba;
+    display: flex;
+}
+
+#pag-accedi main h2 {
+    color: #ffffff;
+}
+
+#col-left {
+    width: 65%;
+    height: 100%;
+}
+
+#col-right {
+    width: 35%;
+    height: 100%;
 }
