@@ -13,6 +13,10 @@
     min-height: 100px;
 }
 
+:root{
+    --darkgray: #23272A;
+}
+
 /* general */
 body{
     font-family:  Helvetica, Arial, sans-serif;
@@ -50,7 +54,7 @@ i {
 
 .btn-lightgray {
     background-color: white;
-    color: #23272A;
+    color: var(--darkgray);
 }
 
 .btn-lightgray:hover {
@@ -59,7 +63,7 @@ i {
 }
 
 .btn-darkgray {
-    background-color: #23272A;
+    background-color: var(--darkgray);
     color: white;
 }
 
@@ -168,7 +172,7 @@ svg {
 
 div.txt-row h2 {
     font-size: 40px;
-    color: #23272A;
+    color: var(--darkgray);
 }
 
  div.txt-row p {
@@ -214,7 +218,7 @@ div.txt-row h2 {
 
 /* footer */
 footer {
-    background-color: #23272A;
+    background-color: var(--darkgray);
     color:#F6F6F6;
     padding: 50px;
 }
@@ -250,7 +254,7 @@ footer section div.social i {
 }
 
 select[name="lang"] {
-    background-color: #23272A;
+    background-color: var(--darkgray);
     border: none;
     color:#F6F6F6;
 }
@@ -344,15 +348,13 @@ form input {
     height: 45px;
     border: none;
     border-radius: 3px;
-    background-color:#23272A;
+    background-color: var(--darkgray);
     margin-top: 5px;
     margin-bottom: 5px;
     color:#F6F6F6;
 }
 
 form input:last-of-type {
-    background-color:#5865f2;
-    color: #F6F6F6;
     font-weight: bold;
     font-size: 17px;
 }
