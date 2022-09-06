@@ -32,13 +32,18 @@ li {
     list-style: none;
 }
 
+i {
+    margin-right: 5px;
+}
+
+/* buttons */
 .buttons {
     display: inline-block;
     text-decoration: none;
     border-radius: 20px;
 }
 
-.big-btn{
+.big-btn {
     font-size: 16px;
     padding: 7px 25px;
 }
@@ -69,8 +74,8 @@ li {
     cursor: pointer;
 }
 
-i {
-    margin-right: 5px;
+#btn-mac {
+    margin-right: 15px;
 }
 
 /* header */
@@ -118,23 +123,17 @@ header nav ul li a:hover {
 
 .hero-text {
     max-width: 600px;
-    min-height: 350px;
+    min-height: 60%;
     text-align: center;
     line-height: 1.5;
-    margin: 0 auto;
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    row-gap: 20px;
+    justify-content: space-around;
 }
 
 section.hero div h1 {
     font-size: 40px;
-}
-
-#btn-mac {
-    margin-right: 15px;
 }
 
 /* main */
@@ -171,6 +170,7 @@ div.txt-row h2 {
     font-size: 40px;
     color: #23272A;
 }
+
  div.txt-row p {
     line-height: 1.6;
     margin-top: 15px;
@@ -215,7 +215,7 @@ div.txt-row h2 {
 /* footer */
 footer {
     background-color: #23272A;
-    color: white;
+    color:#F6F6F6;
     padding: 50px;
 }
 
@@ -225,6 +225,7 @@ footer {
     margin-bottom: 30px;
     padding-bottom: 20px;
 }
+
 .widget > :first-child {
     width: 30%;
     padding-right: 80px;
@@ -244,12 +245,13 @@ footer h4 {
 footer section div.social i {
     margin-right: 15px;
     margin-top: 15px;
+    font-size: 18px;
 }
 
 select[name="lang"] {
     background-color: #23272A;
     border: none;
-    color: white;
+    color:#F6F6F6;
 }
 
 footer h3 {
@@ -262,7 +264,7 @@ footer h3 {
 }
 
 .footer-nav li a {
-    color: white;
+    color:#F6F6F6;
     list-style: none;
     text-decoration: none;
 }
