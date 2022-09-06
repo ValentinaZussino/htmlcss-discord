@@ -13,15 +13,25 @@
         <!-- main container -->
         <main id="box-accedi">
             <!-- col left -->
-            <section id="col-left" class="debug col-flex">
-                <h2>Eccoti qui!</h2>
-                <p>Siamo così felici di averti qui!</p>
-                <form action=""></form>
+            <section id="col-left" class="col-flex">
+                <div>
+                    <h2>Eccoti qui!</h2>
+                    <p>Siamo così felici di averti qui!</p>
+                </div>
+                <div id="form">
+                    <form action="" method="">
+                        <label for="mail">EMAIL O NUMERO DI TELEFONO <span>*</span></label> <br>
+                        <input type="text" id="mail" name="mail"><br><br>
+                        <label for="psw">PASSWORD <span>*</span></label> <br>
+                        <input type="text" id="psw" name="psw"><br><br>
+                        <input type="submit" value="Accedi">
+                    </form>
+                </div>
             </section>
 
             <!-- col right -->
             <section id="col-right" class="col-flex">
-                <img src="../img/qrcode.png" alt="qr code" id="qrcode">
+                <img src="../img/qr.png" alt="qr code" id="qrcode">
                 <div>
                     <h2>Accedi con codice QR</h2>
                     <p>Scansionalo con l'<span>app mobile di Discord</span> per accedere instantaneamente</p>

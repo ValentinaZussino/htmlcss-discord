@@ -297,10 +297,11 @@ footer > :last-child {
 #pag-accedi main {
     background-color: #36393f;
     width: 60%;
-    height: 43%;
+    max-width: 1170px;
+    min-height: 40%;
     color:#b4b6ba;
     display: flex;
-    border-radius: 12px;
+    border-radius: 8px;
 }
 
 .col-flex {
@@ -308,7 +309,6 @@ footer > :last-child {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    justify-content: space-around;
 }
 
 #pag-accedi main h2 {
@@ -318,19 +318,52 @@ footer > :last-child {
 
 #col-left {
     width: 60%;
-    height: 100%;
+    justify-content: center;
+    row-gap: 50px;
+}
+
+#col-left > div {
+    line-height: 1.5;
+}
+
+#form {
+    width: 100%;
+}
+
+form label {
+    text-align: left;
+}
+
+form input {
+    width: 75%;
+    height: 45px;
+    border: none;
+    border-radius: 3px;
+    background-color:#23272A;
+}
+
+form input:last-of-type {
+    background-color:#5865f2;
+    color: #F6F6F6;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#form form label span {
+    color: red;
 }
 
 #col-right {
     width: 40%;
-    height: 100%;
+    padding: 50px 20px;
+    row-gap: 25px;
 }
 
 #col-right > div {
     line-height: 1.5;
-    padding: 0 15px;
 }
 
 #qrcode {
     width: 50%;
 }
+
